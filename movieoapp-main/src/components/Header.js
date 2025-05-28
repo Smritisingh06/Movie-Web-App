@@ -6,11 +6,6 @@ import { IoSearchOutline } from "react-icons/io5";
 import { navigation } from '../contants/navigation';
 import { useAuth } from '../context/AuthContext';
 import { FaEye, FaEyeSlash } from 'react-icons/fa'; 
-import AccountCircleIcon from '@mui/icons-material/AccountCircle';
-
-
-
-
 
 // Sign In Modal Component
 const SignInModal = ({ show, onClose, onSignUp,onLoginSuccess }) => {
